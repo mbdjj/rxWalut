@@ -1,0 +1,119 @@
+/* 
+  Localizable.strings
+  rxWalut
+
+  Created by Marcin Bartminski on 04/12/2022.
+  
+*/
+
+"AUD" = "Australian dollar";
+"BRL" = "Brazilian real";
+"BGN" = "Bulgarian lev";
+"CAD" = "Canadian dollar";
+"CNY" = "Chinese yuan";
+"HRK" = "Croatian kuna";
+"CZK" = "Czech koruna";
+"DKK" = "Danish krone";
+"EUR" = "Euro";
+"HKD" = "Hong Kong dollar";
+"HUF" = "Hungarian forint";
+"INR" = "Indian rupee";
+"IDR" = "Indonesian rupiah";
+"ILS" = "Israeli new shekel";
+"JPY" = "Japanese yen";
+"MYR" = "Malaysian ringgit";
+"MXN" = "Mexican peso";
+"RON" = "Romanian leu";
+"NZD" = "New Zealand dollar";
+"NOK" = "Norwegian krone";
+"PHP" = "Phillippine peso";
+"PLN" = "Polish zloty";
+"GBP" = "British pound";
+"RUB" = "Russian ruble";
+"SGD" = "Singapure dollar";
+"ZAR" = "South African rand";
+"KRW" = "South Korean won";
+"SEK" = "Swedish krona";
+"CHF" = "Swiss franc";
+"THB" = "Thai baht";
+"TRY" = "Turkish lira";
+"USD" = "US dollar";
+
+"settings" = "Settings";
+"settings_change_base" = "Change base currency";
+"settings_decimal_numbers" = "Decimal numbers";
+"settings_enter_code" = "Enter secret code";
+"settings_quick_conversion" = "Quick conversion mode";
+"settings_show_percent" = "Show percent difference";
+
+"base_currency" = "Base currency";
+"base_choose" = "Choose your base";
+
+"sort" = "Sort";
+"sort_by_code" = "By code";
+"sort_by_code_ztoa" = "(Z to A)";
+"sort_by_code_atoz" = "(A to Z)";
+"sort_by_price" = "By price";
+"sort_by_price_highest" = "(from highest)";
+"sort_by_price_lowest" = "(from lowest)";
+"sort_custom" = "Custom";
+"sort_by_favorite" = "By favorite";
+"sort_nav_title" = "Sort currencies";
+
+"favorite_currencies" = "Favorite currencies";
+"favorites" = "Favorites";
+"menu_favorite" = "Favorite";
+"menu_unfavorite" = "Unfavorite";
+
+"save" = "Save";
+"clear" = "Clear";
+"share" = "Share";
+"done" = "Done";
+"error" = "Error";
+"back" = "Back";
+"next" = "Next";
+"continue" = "Continue";
+
+"text_to_share0" = "'s ";
+"text_to_share1" = " price is now at ";
+
+"hello" = "Hello";
+"your_name" = "Your name";
+
+"profile" = "Profile";
+"change_data" = "Change your data";
+"title" = "Title";
+
+"title0" = "Walut user";
+"title1" = "Developer";
+"title2" = "Early enjoyer";
+"supporter_title" = "Supporter";
+"supporter_big_title" = "Wholesome supporter";
+
+"support" = "Support the developer";
+"support_title" = "Support";
+"support_thanks" = "Thank you for your support.";
+"support_enjoy_1" = "Enjoy your new ";
+"support_enjoy_2" = " title. You can equip it in your profile. You also get a verification checkmark next to your name.";
+
+"onboarding0" = "Welcome to Walut!";
+"onboarding1" = "Check current rates!";
+"onboarding2" = "Quickly check conversion!";
+"onboarding3" = "Now with charts!";
+"onboarding_desc0" = "Walut is a simple app to quickly check current exchange rates.";
+"onboarding_desc1" = "Walut takes data from the Internet and presents it to you in a simple way.";
+"onboarding_desc2" = "Walut allows you to check how much will cost any amount of your home currency.";
+"onboarding_desc3" = "Check data from up to a month ago.";
+
+"alert_positive_title" = "Unlocked new title!";
+"alert_positive_message_1" = "You have unlocked the";
+"alert_positive_message_2" = " title! You can equip it in your profile.";
+"alert_repeated_title" = "You already have this title.";
+"alert_repeated_message" = "You've unlocked this title in the past. No worries, you already have it.";
+"alert_invalid_title" = "Invalid code.";
+"alert_invalid_message" = "Unfortunately there is no title for this code (yet).";
+
+"quick_convert" = "Enter amount in your currency";
+
+"share_text" = "Text";
+"share_chart" = "Chart";

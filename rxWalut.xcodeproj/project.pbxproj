@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2A2F718E4B2062E7542B6E42 /* Pods_rxWalut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FE2022C966B1522AF656FD /* Pods_rxWalut.framework */; };
+		345D64A2293CB7A500412637 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345D64A1293CB7A500412637 /* NetworkManager.swift */; };
+		345D64A4293CB81600412637 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345D64A3293CB81600412637 /* Currency.swift */; };
+		345D64A6293CB83A00412637 /* CurrencyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345D64A5293CB83A00412637 /* CurrencyData.swift */; };
+		345D64AB293CC42800412637 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 345D64AD293CC42800412637 /* Localizable.strings */; };
+		345D64AF293CD7E100412637 /* CurrencyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345D64AE293CD7E100412637 /* CurrencyListViewModel.swift */; };
 		34D41FD4293CA8DA00401191 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D41FD3293CA8DA00401191 /* AppDelegate.swift */; };
 		34D41FD6293CA8DA00401191 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D41FD5293CA8DA00401191 /* SceneDelegate.swift */; };
 		34D41FD8293CA8DA00401191 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D41FD7293CA8DA00401191 /* ViewController.swift */; };
@@ -17,13 +22,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		345D64A1293CB7A500412637 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		345D64A3293CB81600412637 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		345D64A5293CB83A00412637 /* CurrencyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyData.swift; sourceTree = "<group>"; };
+		345D64A9293CC40C00412637 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		345D64AA293CC40C00412637 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		345D64AC293CC42800412637 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		345D64AE293CD7E100412637 /* CurrencyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListViewModel.swift; sourceTree = "<group>"; };
 		34D41FD0293CA8DA00401191 /* rxWalut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rxWalut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D41FD3293CA8DA00401191 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34D41FD5293CA8DA00401191 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		34D41FD7293CA8DA00401191 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		34D41FDA293CA8DA00401191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34D41FDC293CA8DB00401191 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		34D41FDF293CA8DB00401191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34D41FE1293CA8DB00401191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63F1AE0366D35A4ABA896CA3 /* Pods-rxWalut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rxWalut.debug.xcconfig"; path = "Target Support Files/Pods-rxWalut/Pods-rxWalut.debug.xcconfig"; sourceTree = "<group>"; };
 		A5FE2022C966B1522AF656FD /* Pods_rxWalut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rxWalut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,10 +75,15 @@
 			children = (
 				34D41FD3293CA8DA00401191 /* AppDelegate.swift */,
 				34D41FD5293CA8DA00401191 /* SceneDelegate.swift */,
+				345D64A3293CB81600412637 /* Currency.swift */,
+				345D64A5293CB83A00412637 /* CurrencyData.swift */,
+				345D64A1293CB7A500412637 /* NetworkManager.swift */,
+				345D64AE293CD7E100412637 /* CurrencyListViewModel.swift */,
 				34D41FD7293CA8DA00401191 /* ViewController.swift */,
 				34D41FD9293CA8DA00401191 /* Main.storyboard */,
 				34D41FDC293CA8DB00401191 /* Assets.xcassets */,
 				34D41FDE293CA8DB00401191 /* LaunchScreen.storyboard */,
+				345D64AD293CC42800412637 /* Localizable.strings */,
 				34D41FE1293CA8DB00401191 /* Info.plist */,
 			);
 			path = rxWalut;
@@ -88,7 +103,6 @@
 				63F1AE0366D35A4ABA896CA3 /* Pods-rxWalut.debug.xcconfig */,
 				F27660E300A0206DB02832D1 /* Pods-rxWalut.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -135,7 +149,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = 34D41FC7293CA8DA00401191;
 			productRefGroup = 34D41FD1293CA8DA00401191 /* Products */;
@@ -153,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34D41FE0293CA8DB00401191 /* LaunchScreen.storyboard in Resources */,
+				345D64AB293CC42800412637 /* Localizable.strings in Resources */,
 				34D41FDD293CA8DB00401191 /* Assets.xcassets in Resources */,
 				34D41FDB293CA8DA00401191 /* Main.storyboard in Resources */,
 			);
@@ -207,19 +221,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				345D64A6293CB83A00412637 /* CurrencyData.swift in Sources */,
+				345D64A2293CB7A500412637 /* NetworkManager.swift in Sources */,
+				345D64A4293CB81600412637 /* Currency.swift in Sources */,
 				34D41FD8293CA8DA00401191 /* ViewController.swift in Sources */,
 				34D41FD4293CA8DA00401191 /* AppDelegate.swift in Sources */,
 				34D41FD6293CA8DA00401191 /* SceneDelegate.swift in Sources */,
+				345D64AF293CD7E100412637 /* CurrencyListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		345D64AD293CC42800412637 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				345D64AC293CC42800412637 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		34D41FD9293CA8DA00401191 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				34D41FDA293CA8DA00401191 /* Base */,
+				345D64A9293CC40C00412637 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -227,7 +253,7 @@
 		34D41FDE293CA8DB00401191 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				34D41FDF293CA8DB00401191 /* Base */,
+				345D64AA293CC40C00412637 /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
