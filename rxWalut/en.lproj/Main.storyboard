@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oi0-E9-fCL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TMw-RW-01e">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21507"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="4Ya-9B-Iqj">
+            <objects>
+                <navigationController id="TMw-RW-01e" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="WGB-gA-zsj">
+                        <rect key="frame" x="0.0" y="59" width="393" height="104.33333333333334"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="oi0-E9-fCL" kind="relationship" relationship="rootViewController" id="Ho0-p6-4bG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BHY-Ga-NpL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1748" y="14"/>
+        </scene>
+        <!--🇵🇱 PLN-->
         <scene sceneID="o8H-PX-UU6">
             <objects>
                 <viewController id="oi0-E9-fCL" customClass="ViewController" customModule="rxWalut" customModuleProvider="target" sceneMemberID="viewController">
@@ -17,7 +33,7 @@
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="currencyCell" rowHeight="175" id="aBh-HY-bXM" customClass="CurrencyCell" customModule="rxWalut" customModuleProvider="target">
-                                <rect key="frame" x="20" y="55.333332061767578" width="353" height="175"/>
+                                <rect key="frame" x="20" y="38" width="353" height="175"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aBh-HY-bXM" id="wu3-Jt-0hH">
                                     <rect key="frame" x="0.0" y="0.0" width="353" height="175"/>
@@ -66,13 +82,14 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
+                    <navigationItem key="navigationItem" title="🇵🇱 PLN" id="bZJ-hG-aVW"/>
                     <connections>
                         <outlet property="tableView" destination="7CU-Un-AMh" id="jLx-Oq-esV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b9t-8X-5bX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-309.16030534351142" y="-25.35211267605634"/>
+            <point key="canvasLocation" x="-879" y="13"/>
         </scene>
     </scenes>
     <resources>
