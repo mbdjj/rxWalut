@@ -12,7 +12,7 @@
             <objects>
                 <navigationController id="TMw-RW-01e" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="WGB-gA-zsj">
-                        <rect key="frame" x="0.0" y="59" width="393" height="104.33333333333334"/>
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -49,15 +49,25 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Polish Zloty" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxc-k2-oM6">
-                                            <rect key="frame" x="88" y="15" width="102" height="23"/>
-                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iv4-Dx-KcU">
                                             <rect key="frame" x="88" y="42" width="32" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.000 zł" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQL-DM-xZF">
+                                            <rect key="frame" x="273" y="76.666666666666671" width="60" height="22"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="C4P-A3-ImB"/>
+                                                <constraint firstAttribute="height" constant="22" id="V7f-6w-YJ5"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Polish Zloty" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxc-k2-oM6">
+                                            <rect key="frame" x="88" y="15" width="102" height="23"/>
+                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -68,16 +78,20 @@
                                         <constraint firstItem="bwK-UI-eaT" firstAttribute="leading" secondItem="wu3-Jt-0hH" secondAttribute="leadingMargin" id="DWD-hT-0OB"/>
                                         <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="iv4-Dx-KcU" secondAttribute="bottom" id="Hor-SL-lPL"/>
                                         <constraint firstItem="wxc-k2-oM6" firstAttribute="top" secondItem="wu3-Jt-0hH" secondAttribute="topMargin" constant="4" id="LsQ-Dx-QQU"/>
+                                        <constraint firstItem="qQL-DM-xZF" firstAttribute="centerY" secondItem="wu3-Jt-0hH" secondAttribute="centerY" id="NPc-2c-9ym"/>
                                         <constraint firstItem="iv4-Dx-KcU" firstAttribute="top" secondItem="wxc-k2-oM6" secondAttribute="bottom" constant="4" id="R4c-WO-MBu"/>
                                         <constraint firstItem="iv4-Dx-KcU" firstAttribute="leading" secondItem="bwK-UI-eaT" secondAttribute="trailing" constant="8" id="XIa-Gg-OQo"/>
+                                        <constraint firstItem="qQL-DM-xZF" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="wxc-k2-oM6" secondAttribute="trailing" constant="4" id="g2s-ps-PZx"/>
                                         <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="bwK-UI-eaT" secondAttribute="bottom" id="hxM-c1-sXj"/>
                                         <constraint firstItem="wxc-k2-oM6" firstAttribute="leading" secondItem="bwK-UI-eaT" secondAttribute="trailing" constant="8" id="oSB-5P-nwz"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="qQL-DM-xZF" secondAttribute="trailing" id="xQR-23-mbq"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="codeLabel" destination="iv4-Dx-KcU" id="HDV-Iq-HZR"/>
                                     <outlet property="flagLabel" destination="bwK-UI-eaT" id="WgA-bD-0qF"/>
                                     <outlet property="nameLabel" destination="wxc-k2-oM6" id="3EP-VL-ePh"/>
+                                    <outlet property="priceLabel" destination="qQL-DM-xZF" id="VoU-j6-hY2"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

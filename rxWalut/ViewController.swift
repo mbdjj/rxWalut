@@ -28,6 +28,7 @@ class ViewController: UIViewController {
             cell.flagLabel.text = item.flag
             cell.nameLabel.text = item.fullName
             cell.codeLabel.text = item.code
+            cell.priceLabel.text = "\(String(format: "%.\(3)f", item.price)) \("zł")"
         }.disposed(by: bag)
         
         tableView.rx.modelSelected(Currency.self).bind { currency in
@@ -49,5 +50,6 @@ class CurrencyCell: UITableViewCell {
     @IBOutlet var flagLabel: UILabel!
     @IBOutlet var nameLabel: UILabel!
     @IBOutlet var codeLabel: UILabel!
+    @IBOutlet var priceLabel: UILabel!
 }
 
