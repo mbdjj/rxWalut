@@ -12,7 +12,7 @@
             <objects>
                 <navigationController id="TMw-RW-01e" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="WGB-gA-zsj">
-                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
+                        <rect key="frame" x="0.0" y="59" width="393" height="104.33333333333334"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -96,7 +96,9 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" title="🇵🇱 PLN" id="bZJ-hG-aVW"/>
+                    <navigationItem key="navigationItem" title="🇵🇱 PLN" id="bZJ-hG-aVW">
+                        <barButtonItem key="rightBarButtonItem" image="calendar" catalog="system" id="iG8-RC-EI8"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="7CU-Un-AMh" id="jLx-Oq-esV"/>
                     </connections>
@@ -107,6 +109,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="calendar" catalog="system" width="128" height="107"/>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

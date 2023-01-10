@@ -19,6 +19,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tableView.refreshControl = UIRefreshControl()
+        tableView.refreshControl?.addTarget(self, action: #selector(refreshData), for: .valueChanged)
+        tableView.refreshControl?.attributedTitle = NSAttributedString("Pociągnij aby odświeżyć")
+        
         bindTableData()
     }
     
@@ -41,6 +45,16 @@ class ViewController: UIViewController {
         
         Task {
             await viewModel.fetchCurrencies()
+        }
+    }
+    
+    @objc func refreshData() {
+        Task {
+            await viewModel.fetchCurrencies()
+        }
+        
+        DispatchQueue.main.async {
+            self.tableView.refreshControl?.endRefreshing()
         }
     }
 
