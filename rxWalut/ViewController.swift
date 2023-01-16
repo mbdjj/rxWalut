@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         
         tableView.refreshControl = UIRefreshControl()
         tableView.refreshControl?.addTarget(self, action: #selector(refreshData), for: .valueChanged)
-        tableView.refreshControl?.attributedTitle = NSAttributedString("Pociągnij aby odświeżyć")
+        tableView.refreshControl?.attributedTitle = NSAttributedString("Pull to refresh")
         
         bindTableData()
     }
